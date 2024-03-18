@@ -9,5 +9,4 @@ fun main() {
     var endDepositAmount = depositAmount * compoundInterestMultiplier
 
     println("Размер вклада через 20 лет составит: ${"%.3f".format(endDepositAmount)}")
-
 }
