@@ -7,6 +7,8 @@ fun main() {
     val mark3: Double = 3.0
     val mark4: Double = 5.0
 
-    val averageMark: Double = (mark1 + mark2 + mark3 + mark4) / 4
+    val numberOfStudents: Int = 4
+
+    val averageMark: Double = (mark1 + mark2 + mark3 + mark4) / numberOfStudents
     println("Средний балл данного класса по английскому языку составляет: $averageMark")
 }
